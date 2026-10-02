@@ -1,21 +1,235 @@
 {
-  "brand": { "name": "Estudio Ejemplo" },
-  "whatsapp": { "enabled": true, "number": "573001234567", "message": "Hola, quiero cotizar una sesión de fotografía." },
-  "hero": { "title": "Fotografía que cuenta tu historia", "subtitle": "Bodas, conciertos y eventos corporativos.", "interval": 5, "images": [],
-    "profiles": [{ "label": "Mi boda", "target": "weddings" }, { "label": "Un evento musical", "target": "concerts" }, { "label": "Mi empresa", "target": "corporate" }] },
-  "stats": [{ "value": "10+", "label": "años de experiencia" }, { "value": "300+", "label": "eventos cubiertos" }],
-  "about": { "title": "Quién soy", "text": "Texto de ejemplo.", "mode": "static", "images": [] },
-  "galleries": {
-    "weddings": { "title": "Bodas", "text": "Momentos que duran para siempre.", "mode": "carousel", "cta": "Cotizar mi boda", "ctaMessage": "Hola, quiero cotizar mi boda.", "images": [] },
-    "concerts": { "title": "Conciertos", "text": "La energía del escenario.", "mode": "collage", "cta": "Cotizar mi evento", "ctaMessage": "Hola, quiero cotizar un concierto.", "images": [] },
-    "corporate": { "title": "Corporativos", "text": "Imagen profesional para tu empresa.", "mode": "carousel", "cta": "Cotizar para mi empresa", "ctaMessage": "Hola, quiero cotizar un evento corporativo.", "images": [] }
+  "brand": {
+    "name": "Yesid"
   },
-  "services": { "title": "Servicios", "text": "Elige el que mejor se ajuste.", "message": "Hola, quiero cotizar: {servicio}",
-    "items": [{ "id": "s1", "name": "Cobertura básica", "price": "Desde $500.000", "description": "Ejemplo.", "includes": ["4 horas", "100 fotos editadas"], "enabled": true, "featured": true }] },
-  "process": { "title": "Cómo trabajo", "text": "", "items": [{ "title": "Hablamos", "text": "Me cuentas tu idea." }, { "title": "Cubro tu evento", "text": "Capturo cada momento." }] },
-  "testimonials": { "title": "Testimonios", "items": [{ "text": "Testimonio de ejemplo.", "name": "Cliente" }] },
-  "vision": { "title": "Mi visión", "text": "Texto de ejemplo.", "image": "" },
-  "faq": { "title": "Preguntas frecuentes", "items": [{ "q": "¿Viajas a otras ciudades?", "a": "Sí, consulta disponibilidad." }] },
-  "social": { "instagram": "https://instagram.com/ejemplo", "facebook": "", "tiktok": "", "youtube": "" },
-  "contact": { "title": "Contacto", "text": "Cuéntame sobre tu evento." }
+  "whatsapp": {
+    "enabled": true,
+    "number": "573142978502",
+    "message": "Hola, vi tu portafolio y quiero más información."
+  },
+  "hero": {
+    "title": "Fotografía que se queda contigo",
+    "subtitle": "Bodas, conciertos y marcas contadas con luz real.",
+    "interval": 5,
+    "images": [
+      "https://picsum.photos/seed/hero1/1920/1200",
+      "https://picsum.photos/seed/hero2/1920/1200",
+      "https://picsum.photos/seed/hero3/1920/1200"
+    ],
+    "profiles": [
+      {
+        "label": "Mi boda",
+        "target": "weddings"
+      },
+      {
+        "label": "Mi concierto o evento",
+        "target": "concerts"
+      },
+      {
+        "label": "Mi empresa",
+        "target": "corporate"
+      }
+    ]
+  },
+  "galleries": {
+    "weddings": {
+      "title": "Bodas",
+      "text": "El día más importante, sin posar de más. Emoción verdadera.",
+      "mode": "carousel",
+      "images": [
+        "https://picsum.photos/seed/w1/1200/800",
+        "https://picsum.photos/seed/w2/800/1100",
+        "https://picsum.photos/seed/w3/1200/800",
+        "https://picsum.photos/seed/w4/1000/1000"
+      ],
+      "cta": "Cotizar mi boda",
+      "ctaMessage": "Hola, quiero cotizar la fotografía de mi boda."
+    },
+    "concerts": {
+      "title": "Conciertos",
+      "text": "La energía del escenario y del público, congelada.",
+      "mode": "collage",
+      "images": [
+        "https://picsum.photos/seed/c1/1200/800",
+        "https://picsum.photos/seed/c2/800/1100",
+        "https://picsum.photos/seed/c3/1000/1000",
+        "https://picsum.photos/seed/c4/1200/800",
+        "https://picsum.photos/seed/c5/800/1100"
+      ],
+      "cta": "Cotizar mi evento",
+      "ctaMessage": "Hola, quiero cotizar la cobertura de un concierto o evento musical."
+    },
+    "corporate": {
+      "title": "Corporativos",
+      "text": "Eventos, equipos y marca con imagen profesional.",
+      "mode": "carousel",
+      "images": [
+        "https://picsum.photos/seed/k1/1200/800",
+        "https://picsum.photos/seed/k2/1200/800",
+        "https://picsum.photos/seed/k3/1200/800"
+      ],
+      "cta": "Cotizar para mi empresa",
+      "ctaMessage": "Hola, quiero cotizar fotografía para un evento corporativo."
+    }
+  },
+  "services": {
+    "title": "Servicios",
+    "text": "Elige un paquete o pide una cotización a tu medida.",
+    "message": "Hola, quiero cotizar el servicio: {servicio}",
+    "items": [
+      {
+        "id": "s1",
+        "name": "Boda completa",
+        "price": "Desde $2.500.000",
+        "description": "Cobertura de ceremonia y fiesta, galería privada y 300 fotos editadas.",
+        "enabled": true,
+        "includes": [
+          "Cobertura de ceremonia y fiesta",
+          "Galería privada online",
+          "300 fotos editadas"
+        ],
+        "featured": true
+      },
+      {
+        "id": "s2",
+        "name": "Concierto / evento musical",
+        "price": "Desde $900.000",
+        "description": "Cobertura de show, entrega en 72 horas.",
+        "enabled": true,
+        "includes": [
+          "Cobertura completa del show",
+          "Entrega en 72 horas",
+          "Fotos listas para redes"
+        ],
+        "featured": false
+      },
+      {
+        "id": "s3",
+        "name": "Evento corporativo",
+        "price": "Desde $1.200.000",
+        "description": "Cobertura, retratos de equipo y banco de imágenes para tu marca.",
+        "enabled": true,
+        "includes": [
+          "Cobertura del evento",
+          "Retratos del equipo",
+          "Banco de imágenes para tu marca"
+        ],
+        "featured": false
+      }
+    ]
+  },
+  "about": {
+    "title": "Quién soy",
+    "text": "Soy fotógrafo hace más de 10 años. Creo que una buena foto se siente antes de entenderse. Edita este texto desde el panel.",
+    "mode": "carousel",
+    "images": [
+      "https://picsum.photos/seed/a1/900/1100",
+      "https://picsum.photos/seed/a2/900/700",
+      "https://picsum.photos/seed/a3/900/900"
+    ]
+  },
+  "vision": {
+    "title": "Mi visión",
+    "text": "Cada historia merece ser contada con honestidad, cuidado por el detalle y respeto por quienes la viven.",
+    "image": "https://picsum.photos/seed/vision/1920/1000"
+  },
+  "contact": {
+    "title": "Hablemos",
+    "text": "Cuéntame qué quieres capturar y te respondo en menos de 24 horas."
+  },
+  "smtp": {
+    "host": "",
+    "port": 465,
+    "secure": true,
+    "user": "",
+    "pass": "",
+    "to": "",
+    "fromName": "Portafolio web"
+  },
+  "stats": [
+    {
+      "value": "10+",
+      "label": "años de experiencia"
+    },
+    {
+      "value": "500+",
+      "label": "eventos cubiertos"
+    },
+    {
+      "value": "72 h",
+      "label": "para recibir tus primeras fotos"
+    },
+    {
+      "value": "Todo el país",
+      "label": "cobertura y viajes"
+    }
+  ],
+  "process": {
+    "title": "Así trabajamos",
+    "text": "Un proceso simple para que no te preocupes de nada.",
+    "items": [
+      {
+        "title": "Cuéntame tu idea",
+        "text": "Me escribes por WhatsApp o por el formulario con fecha y tipo de evento."
+      },
+      {
+        "title": "Recibes tu cotización",
+        "text": "Te respondo con una propuesta clara, sin costos ocultos."
+      },
+      {
+        "title": "Reservas tu fecha",
+        "text": "Con un anticipo bloqueamos el día solo para ti."
+      },
+      {
+        "title": "Recibes tu galería",
+        "text": "Te entrego tus fotos editadas en una galería privada."
+      }
+    ]
+  },
+  "testimonials": {
+    "title": "Lo que dicen mis clientes",
+    "text": "",
+    "items": [
+      {
+        "text": "Ejemplo: Captó cada momento de nuestra boda sin que nos sintiéramos observados.",
+        "name": "Nombre de la pareja"
+      },
+      {
+        "text": "Ejemplo: Entregó rápido y las fotos del concierto quedaron increíbles.",
+        "name": "Nombre del artista"
+      },
+      {
+        "text": "Ejemplo: Muy profesional y puntual en nuestro evento de empresa.",
+        "name": "Nombre, Empresa"
+      }
+    ]
+  },
+  "faq": {
+    "title": "Preguntas frecuentes",
+    "text": "",
+    "items": [
+      {
+        "q": "¿Cómo reservo mi fecha?",
+        "a": "Con una cotización aprobada y un anticipo. Escríbeme para confirmar disponibilidad."
+      },
+      {
+        "q": "¿En cuánto tiempo recibo las fotos?",
+        "a": "Las primeras fotos en 72 horas y la galería completa según el paquete."
+      },
+      {
+        "q": "¿Viajas a otras ciudades?",
+        "a": "Sí. El costo de viáticos se incluye en la cotización."
+      },
+      {
+        "q": "¿Puedo pedir fotos extra o más horas?",
+        "a": "Claro, se agregan al paquete y te lo cotizo antes de confirmar."
+      }
+    ]
+  },
+  "social": {
+    "instagram": "",
+    "facebook": "",
+    "tiktok": "",
+    "youtube": ""
+  }
 }
