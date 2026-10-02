@@ -1,0 +1,21 @@
+{
+  "brand": { "name": "Estudio Ejemplo" },
+  "whatsapp": { "enabled": true, "number": "573001234567", "message": "Hola, quiero cotizar una sesión de fotografía." },
+  "hero": { "title": "Fotografía que cuenta tu historia", "subtitle": "Bodas, conciertos y eventos corporativos.", "interval": 5, "images": [],
+    "profiles": [{ "label": "Mi boda", "target": "weddings" }, { "label": "Un evento musical", "target": "concerts" }, { "label": "Mi empresa", "target": "corporate" }] },
+  "stats": [{ "value": "10+", "label": "años de experiencia" }, { "value": "300+", "label": "eventos cubiertos" }],
+  "about": { "title": "Quién soy", "text": "Texto de ejemplo.", "mode": "static", "images": [] },
+  "galleries": {
+    "weddings": { "title": "Bodas", "text": "Momentos que duran para siempre.", "mode": "carousel", "cta": "Cotizar mi boda", "ctaMessage": "Hola, quiero cotizar mi boda.", "images": [] },
+    "concerts": { "title": "Conciertos", "text": "La energía del escenario.", "mode": "collage", "cta": "Cotizar mi evento", "ctaMessage": "Hola, quiero cotizar un concierto.", "images": [] },
+    "corporate": { "title": "Corporativos", "text": "Imagen profesional para tu empresa.", "mode": "carousel", "cta": "Cotizar para mi empresa", "ctaMessage": "Hola, quiero cotizar un evento corporativo.", "images": [] }
+  },
+  "services": { "title": "Servicios", "text": "Elige el que mejor se ajuste.", "message": "Hola, quiero cotizar: {servicio}",
+    "items": [{ "id": "s1", "name": "Cobertura básica", "price": "Desde $500.000", "description": "Ejemplo.", "includes": ["4 horas", "100 fotos editadas"], "enabled": true, "featured": true }] },
+  "process": { "title": "Cómo trabajo", "text": "", "items": [{ "title": "Hablamos", "text": "Me cuentas tu idea." }, { "title": "Cubro tu evento", "text": "Capturo cada momento." }] },
+  "testimonials": { "title": "Testimonios", "items": [{ "text": "Testimonio de ejemplo.", "name": "Cliente" }] },
+  "vision": { "title": "Mi visión", "text": "Texto de ejemplo.", "image": "" },
+  "faq": { "title": "Preguntas frecuentes", "items": [{ "q": "¿Viajas a otras ciudades?", "a": "Sí, consulta disponibilidad." }] },
+  "social": { "instagram": "https://instagram.com/ejemplo", "facebook": "", "tiktok": "", "youtube": "" },
+  "contact": { "title": "Contacto", "text": "Cuéntame sobre tu evento." }
+}

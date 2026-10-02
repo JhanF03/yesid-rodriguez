@@ -1,0 +1,8 @@
+{
+  "name": "portafolio-fotografo",
+  "version": "2.0.0",
+  "private": true,
+  "type": "commonjs",
+  "scripts": { "build": "node build.mjs", "dev": "node build.mjs && node scripts/serve.mjs" },
+  "engines": { "node": ">=18" }
+}
